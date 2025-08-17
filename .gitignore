@@ -25,6 +25,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Keep CV private
-public/Sajjad Ali Shah Professional CV.pdf
