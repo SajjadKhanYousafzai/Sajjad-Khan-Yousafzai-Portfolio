@@ -122,7 +122,7 @@ export function Hero() {
                 className="hover:scale-105 transition-all duration-300 hover:bg-primary/5 dark:hover:bg-primary/10 bg-background border-border hover:border-primary/50"
                 asChild
               >
-              <Link href="/Sajjad%20Ali%20Shah%20Professional%20CV.pdf" target="_blank">
+              <Link href="/SAJJAD%20ALI%20SHAH%20CV.pdf" target="_blank">
                   <Download className="mr-2 h-5 w-5 transition-transform duration-300 group-hover:-translate-y-1" />
                   Download Resume
                 </Link>
