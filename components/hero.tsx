@@ -269,9 +269,8 @@ export function Hero() {
           {/* Content */}
           <div className="space-y-8">
             <div
-              className={`space-y-6 transition-all duration-1000 ease-out ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-              }`}
+              className={`space-y-6 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                }`}
             >
               {/* Subtitle with typewriter */}
               <div
@@ -308,9 +307,8 @@ export function Hero() {
 
             {/* Tech badges */}
             <div
-              className={`flex flex-wrap gap-2 transition-all duration-700 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`flex flex-wrap gap-2 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
               style={{ transitionDelay: "700ms" }}
             >
               {techBadges.map((badge) => (
@@ -325,9 +323,8 @@ export function Hero() {
 
             {/* CTAs */}
             <div
-              className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
               style={{ transitionDelay: "800ms" }}
             >
               <Button
@@ -355,9 +352,8 @@ export function Hero() {
 
             {/* Social Links */}
             <div
-              className={`flex items-center gap-4 pt-2 transition-all duration-700 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`flex items-center gap-4 pt-2 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
               style={{ transitionDelay: "1000ms" }}
             >
               {[
@@ -380,9 +376,8 @@ export function Hero() {
 
           {/* Profile Photo - Circle format */}
           <div
-            className={`transition-all duration-1000 ease-out ${
-              isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-10 scale-95"
-            }`}
+            className={`transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-10 scale-95"
+              }`}
             style={{ transitionDelay: "500ms" }}
           >
             <div className="relative group flex justify-center">
