@@ -344,10 +344,10 @@ export function Hero() {
                 asChild
               >
                 <a
-                  href="./Sajjad-Ali-Shah-CV.pdf"
+                  href="./Sajjad%20Ali%20Shah%20CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="Sajjad-Ali-Shah-CV.pdf"
+                  download="Sajjad Ali Shah CV.pdf"
                 >
                   <Download className="mr-2 h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" />
                   Download Resume
