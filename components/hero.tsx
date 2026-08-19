@@ -344,7 +344,7 @@ export function Hero() {
                 asChild
               >
                 <a
-                  href="./Sajjad%20Ali%20Shah%20CV.pdf"
+                  href="/Sajjad-Ali-Shah-CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
