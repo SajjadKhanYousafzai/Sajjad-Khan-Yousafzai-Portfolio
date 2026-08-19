@@ -387,29 +387,29 @@ export function Hero() {
             <div className="relative group flex justify-center">
               {/* Glowing ring */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-[320px] h-[320px] md:w-[420px] md:h-[420px] rounded-full bg-gradient-to-r from-cyan-500/20 to-violet-500/20 blur-2xl animate-pulse-ring" />
+                <div className="w-[360px] h-[360px] md:w-[480px] md:h-[480px] lg:w-[540px] lg:h-[540px] rounded-full bg-gradient-to-r from-cyan-500/20 to-violet-500/20 blur-2xl animate-pulse-ring" />
               </div>
 
               {/* Photo container */}
-              <div className="relative w-72 h-72 md:w-96 md:h-96">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 p-[3px] animate-spin-slow">
+              <div className="relative w-80 h-80 md:w-[440px] md:h-[440px] lg:w-[480px] lg:h-[480px]">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 p-[3.5px] animate-spin-slow">
                   <div className="w-full h-full rounded-full bg-background" />
                 </div>
-                <div className="absolute inset-[6px] rounded-full overflow-hidden">
+                <div className="absolute inset-[7px] rounded-full overflow-hidden">
                   <Image
                     src="/profile pic.png"
                     alt="Sajjad Ali Shah — AI Engineer & Data Scientist"
-                    width={500}
-                    height={500}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     priority
                   />
                 </div>
               </div>
 
               {/* Floating accent shapes */}
-              <div className="absolute -bottom-4 -right-4 w-20 h-20 rounded-2xl bg-gradient-to-r from-cyan-500/15 to-violet-500/15 blur-sm animate-float" />
-              <div className="absolute -top-4 -left-4 w-14 h-14 rounded-full bg-gradient-to-r from-violet-500/15 to-emerald-500/15 blur-sm animate-float-slow" />
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-2xl bg-gradient-to-r from-cyan-500/15 to-violet-500/15 blur-sm animate-float" />
+              <div className="absolute -top-4 -left-4 w-16 h-16 rounded-full bg-gradient-to-r from-violet-500/15 to-emerald-500/15 blur-sm animate-float-slow" />
             </div>
           </div>
         </div>
