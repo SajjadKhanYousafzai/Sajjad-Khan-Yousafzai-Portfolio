@@ -343,10 +343,15 @@ export function Hero() {
                 className="rounded-full hover:scale-[1.02] transition-all duration-300 bg-background/50 backdrop-blur-sm border-border/50 hover:border-primary/40 hover:bg-primary/5 group px-6"
                 asChild
               >
-                <Link href="/Sajjad%20Ali%20Shah%20CV.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="./Sajjad-Ali-Shah-CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Sajjad-Ali-Shah-CV.pdf"
+                >
                   <Download className="mr-2 h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" />
                   Download Resume
-                </Link>
+                </a>
               </Button>
             </div>
 
